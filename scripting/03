@@ -1,0 +1,27 @@
+#!/bin/bash
+
+rep=1
+while [ "$rep" -eq 1 ]; do
+	printf "menu :\n\n"
+	echo "1. Vérifier l'existence d'un utilisateur"
+	echo "2. Quitter\n"
+	read -r choix
+	case "$choix" in
+		1)
+			echo "Saisir l'utilisateur"
+			read -r util
+			if grep "^$util:" /etc/passwd > /dev/null; then
+				echo "L'utilisateur existe"
+			else
+				echo "L'utilisateur n'existe pas"
+			fi ;;
+		
+		2)
+			echo "Au revoir"
+			rep=0 ;;
+		
+		*)
+			echo "Erreur de saisie"
+		
+	esac
+done

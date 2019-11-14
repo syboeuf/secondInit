@@ -1,1 +1,4 @@
-route get default | grep gateway | cut -d ":" -f2
+netstat -nr
+
+# -n : Afficher les adresses réseau sous forme de numéros
+# -r : Afficher les tables de routage

@@ -1,1 +1,4 @@
 df -h
+
+# df: rapporte l'utilisation de l'espace disque du système de fichiers
+# -h: taille d'impression en format lisible par l'homme

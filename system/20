@@ -1,1 +1,4 @@
-cat /etc/passwd
+cut -f1 -d: /etc/passwd
+
+# Conserve le premier champ sur chaque ligne de "/etc/passwd" pour afficher
+# tous les utilisateurs existants sur le périphérique

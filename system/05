@@ -1,1 +1,4 @@
-/etc/init.d/ssh status
+systemctl status ssh
+
+# Détermine l'état du service SSH
+# Utilisez sudo si vous n'avez pas les droits

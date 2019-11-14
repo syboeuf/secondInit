@@ -1,1 +1,4 @@
-sudo systemctl start ssh
+ssh user:password@ip
+
+# Commande permettant de se connecter en SSH sur le périphérique
+# Mieux vaut utiliser 'utilisateur@ip' et entrer le mot de passe dans le champ caché

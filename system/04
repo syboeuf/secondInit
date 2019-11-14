@@ -1,1 +1,4 @@
-uptime
+uptime -p
+
+# uptime: indique depuis combien de temps le système fonctionne
+# -p: affiche uptime dans un joli format

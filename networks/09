@@ -1,1 +1,3 @@
 nslookup 42.fr 8.8.8.8
+
+# Commande utilisé pour trouver l'ip externe de 42.fr

@@ -1,1 +1,4 @@
-nat-1
+# Commande utilisé : traceroute google.fr
+
+# Avant le changement de réseau, l'adresse IP est 10.60.1.11 (nat-1)
+# C'est le pont entre le réseau local et le monde extérieur

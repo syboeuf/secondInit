@@ -1,1 +1,8 @@
-dig -x 10.13.13.8 +short
+# Commande utilisé pour trouver l'ip assigner par le serveur DHCP:
+# ifconfig en0 | grep "inet " | cut -d " " -f1,2
+
+# - Sortie -
+# Server:10.51.1.42
+# Address:10.51.1.42#53
+
+# 21.4.12.10.in-addr.arpaname =				 e2r4p21.42.fr.

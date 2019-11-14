@@ -1,1 +1,4 @@
-sudo systemctl stop ssh
+systemctl stop ssh
+
+# Stop le service SSH
+# Utilise sudo si vous n'avez pas les droits

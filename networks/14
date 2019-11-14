@@ -1,1 +1,4 @@
-/etc/hosts
+# Le fichier contenant les entrées DNS locale est situé dans le chemin "/etc/hosts"
+# Utilisez cette commande pour les afficher:
+
+cat /etc/hosts

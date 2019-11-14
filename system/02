@@ -1,1 +1,5 @@
-echo "syboeuf" >> /etc/hostname
+hostname newSystemName
+
+# hostname est utilisé pour renommer le système
+# Utilisez uniquement le nom d'hôte pour voir le nom réel
+# Si vous n'avez pas le droit de l'utiliser, utilisez le préfixe 'sudo'

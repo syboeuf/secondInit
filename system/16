@@ -1,1 +1,2 @@
-cron
+# Cron est le service qui permet d’exécuter des tâches spécifiques
+# Suit un horaire régulier

@@ -1,1 +1,3 @@
-sudo fdisk -l
+lsblk
+
+# Imprime tous les périphériques en mode bloc (sauf les disques RAM)

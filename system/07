@@ -1,1 +1,3 @@
 cat /var/run/sshd.pid
+
+# Détermine le PID du service SSHD

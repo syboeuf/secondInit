@@ -1,3 +1,3 @@
 cat /etc/resolv.conf
 
-# # L'adresse IP du serveur DNS actuellement utilisé est accessible à "/etc/resolv.conf"
+# L'adresse IP du serveur DNS actuellement utilisé est accessible à "/etc/resolv.conf"

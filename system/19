@@ -1,1 +1,4 @@
-service --status-al
+# Commande à utiliser pour afficher le résultat
+systemctl list-unit-files --type service --state enabled
+
+# Affiche les services de démarrage (services lancés au démarrage)

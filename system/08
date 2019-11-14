@@ -1,1 +1,5 @@
-/etc/ssh
+# Fichier contenant les clés RSA autorisées
+# Pour se connecter via SSH: "~/.ssh/registered_keys"
+
+# Utilisez cette commande pour afficher les clés RSA autorisées:
+cat ~/.ssh/authorized_keys

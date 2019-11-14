@@ -1,1 +1,3 @@
-dpkg --list
+apt list --installed
+
+# Liste de tous les paquets installés sur le périphérique

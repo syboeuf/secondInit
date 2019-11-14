@@ -1,1 +1,4 @@
-/etc/debian_version
+# La version installée de Debian est stockée dans "/etc/debian_version"
+# Commande utilisée pour l'afficher:
+
+cat /etc/debian_version

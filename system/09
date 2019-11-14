@@ -1,1 +1,4 @@
-users
+who -q
+
+# who: Afficher les utilisateurs actuellement connectés
+# -q: tous les noms de connexion et le nombre d'utilisateurs connectés (facultatif)

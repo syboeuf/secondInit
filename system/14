@@ -1,2 +1,6 @@
-bg
-[1]+ tail -f /var/log/syslog
+tail -f /var/log/syslog &
+
+# &: Utilisé pour exécuter une commande en arrière-plan
+# Si vous n'avez pas le droit de l'utiliser, utilisez le préfixe 'sudo'
+
+# Utils : bg / fg

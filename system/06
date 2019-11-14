@@ -1,1 +1,4 @@
-/etc/init.d/ssh restart
+systemctl restart ssh
+
+# Redémarre le service SSH
+# Utilisez sudo si vous n'avez pas les droits

@@ -1,0 +1,8 @@
+# - Session graphique -
+# Sur la page de connexion: entrez le nom d'utilisateur et le mot de passe
+
+# - Session SSH -
+# Dans le terminal, utilisez la commande suivante: utilisateur ssh: mot de passe @ ip
+# Vous devez remplacer [utilisateur] [mot de passe] [ip] par vos valeurs
+
+# NB: Vous pouvez utiliser la commande suivante pour passer à un autre utilisateur: su user

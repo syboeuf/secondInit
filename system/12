@@ -1,1 +1,4 @@
 du -h /var
+
+# du: Estimation de l'utilisation de l'espace fichier
+# -h: Affiche en format lisible par l'homme

@@ -1,1 +1,5 @@
-ps aux
+    
+pkill -x tail
+
+# Tue le dernier processus
+# Si vous n'avez pas le droit de l'utiliser, utilisez le préfixe 'sudo'

@@ -1,1 +1,4 @@
-nslookup slash16.org 8.8.8.8
+dig @8.8.8.8 slash16.org
+
+# dig est utilisé pour interroger les serveurs DNS
+# Usage: dig @server name

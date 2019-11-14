@@ -1,1 +1,3 @@
-nslookup slash16.org | grep Server | cut -d ":" -f2
+nslookup slash16.org | grep Server
+
+# Identifie l'adresse IP du DNS qui répond à l'URL: slash16.org
